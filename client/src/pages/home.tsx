@@ -43,7 +43,7 @@ export default function Home() {
                 onClick={() => setLocation("/resources")}
                 variant="outline"
                 size="lg"
-                className="border-2 border-white text-white hover:bg-white hover:text-primary px-8 py-4 rounded-xl font-semibold"
+                className="border-2 border-white text-white hover:bg-white hover:text-primary px-8 py-4 rounded-xl font-semibold transition-all duration-200"
               >
                 <BookOpen className="mr-2 h-4 w-4" />
                 Browse Resources
