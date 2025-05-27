@@ -23,7 +23,7 @@ export default function Results() {
   }, [setLocation]);
 
   const { data: result, isLoading } = useQuery<AssessmentResult>({
-    queryKey: ["/api/assessment/result", sessionId],
+    queryKey: [`/api/assessment/result/${sessionId}`],
     enabled: !!sessionId,
   });
 
